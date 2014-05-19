@@ -21,4 +21,4 @@ data_set_with_the_averages.txt -- 0.225 Mb, a 180x68 data frame
 
 The script normally runs for ~30 seconds, but the exact number depends on your system.
 
-Use data <- read.table("data_set_with_the_averages.txt") to read the latter. It is 180x68 because there are 30 subjects and 6 activities, thus "for each activity and each subject" means 30*6=180 rows. Note that the provided R script has no assumptions on numbers of records, only on locations of files.
+Usedata <- read.table("data_set_with_the_averages.txt") to read the latter. It is 180x68 because there are 30 subjects and 6 activities, thus "for each activity and each subject" means 30*6=180 rows. Note that the provided R script has no assumptions on numbers of records, only on locations of files.
