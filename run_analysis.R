@@ -57,3 +57,10 @@ for (s in 1:numSubjects) {
 }
 write.table(result, "data_set_with_the_averages.txt")
 
+# res2 <- read.table("data_set_with_the_averages.txt")
+# result[4,4]
+# res2[4,4]
+# res2[4,4]==result[4,4]
+# result[6,4]
+# res2[6,4]
+# res2[6,4]==result[6,4]
